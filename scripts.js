@@ -7,7 +7,7 @@ async function buscarCidade(cidade) {
   // FETCH -> Ferramenta do JavaScript para acessar servidores
   // THEN -> ENTÃO
   // JSON -> JAVASCRIPT OBJECT NOTATION
-   console.log(dados)
+  //console.log(dados)
 
    // Completando os elementos HTML com os dados da API
    document.querySelector('.cidade').innerText = `Tempo em: ${dados.name}`;
